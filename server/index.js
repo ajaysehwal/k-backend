@@ -8,7 +8,7 @@ const path = require('path')
 async function StartServer(){
  const app=express();
  var corsOptions = {
-    origin: 'http://localhost:5173',
+    origin: 'https://dreamdesignarchitects.vercel.app',
     optionsSuccessStatus: 200 
   }
  app.use(cors(corsOptions));
